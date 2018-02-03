@@ -14,8 +14,15 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/account">
-                  Akun
+                <a className="nav-link" href="/settings">
+                  Pengaturan
+                </a>
+              </li>
+            </ul>
+            <ul className="nav navbar-nav ml-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="/logout">
+                  Log Out
                 </a>
               </li>
             </ul>

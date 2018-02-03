@@ -1,0 +1,8 @@
+.item-list > div {
+  margin-bottom: 15px;
+}
+
+.product-image {
+  float: right;
+  width: 30%;
+}
